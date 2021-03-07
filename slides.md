@@ -5,6 +5,18 @@
 
 ---
 
+[.column]
+# [fit] Hi,
+
+[.column]
+<br>
+# [fit] I'm Max Gallo
+##[fit] _**Italy > London**_
+##[fit] _**Principal Engineer at DAZN**_
+##[fit]@_maxgallo
+
+---
+
 # Our Journey
 
 - Beyond Desktop Browsers
@@ -46,9 +58,11 @@
 
 ---
 
-# Features and Devices Teams
+# Teams Structure
 
-@TODO: add image here
+![inline 70%](./images/teams.png)
+
+^ Ownership
 
 ---
 
@@ -56,23 +70,25 @@
 
 ## Slow feedback loop
 
+![inline 70%](./images/teams_feedback_loop.png)
+
 ---
 
 # _**Challenge #2**_
 
 ## Work Visibility
 
+![inline 70%](./images/teams_work_visibility.png)
+
+^ When is this feature going to be ready ?
+
 ---
 
 # _**Challenge #3**_
 
-[.column]
+## Devices Teams can't fix issues properly
 
-### Features Teams far from devices
-
-[.column]
-
-### Devices Teams can't fix issues
+![inline 70%](./images/teams_fix_issues.png)
 
 ---
 
