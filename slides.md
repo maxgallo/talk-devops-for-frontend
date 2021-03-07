@@ -96,11 +96,10 @@ build-lists: true
 #[fit] _**Recap**_
 
 [.column]
-###[fit] Slow Feebback Loop
-<br>
-###[fit] Work Visibility
-<br>
-###[fit] Device Teams Ownership
+
+- Slow Feebback Loop
+- Work Visibility
+- Device Teams Ownership
 
 ---
 
@@ -220,9 +219,9 @@ Enable feature teams to dev & deploy autonomously
 
 ---
 
-# TV Platform team & Features teams
+# TV Platform team _**&**_ Features teams
 
-![inline 48%](./images/workflow_new.png)
+![inline 50%](./images/workflow_new.png)
 
 ^ TV Platform team enables the Features Team to work on Devices
 
@@ -246,6 +245,18 @@ Enable feature teams to dev & deploy autonomously
 ## _**Prevent Defects being passed downstream**_
 
 ![50% original](./images/maximise_the_flow_prevent_defects.png)
+
+---
+
+[.column]
+# [fit] Maximise the flow
+# [fit] _**Recap**_
+
+[.column]
+
+- One Jira board to track the work
+- One Team that deploys often
+- Develop on Device early + Test Automation
 
 ---
 
