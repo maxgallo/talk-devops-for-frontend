@@ -1,7 +1,10 @@
+build-lists: true
+
 #[fit] DevOps for Frontend
 ###[fit] _**Beyond Desktop Browsers**_
 
 @_maxgallo
+
 
 ---
 
@@ -10,10 +13,12 @@
 
 [.column]
 <br>
-# [fit] I'm Max Gallo
+# [fit] I'm Max[^1] Gallo
 ##[fit] _**Italy > London**_
 ##[fit] _**Principal Engineer at DAZN**_
 ##[fit]@_maxgallo
+
+[^1]: or Massimiliano if you like Itlian spelling challenges
 
 ---
 
@@ -31,34 +36,28 @@
 
 ---
 
-# DAZN
+#[fit] DAZN
+##[fit] _**Live Sport Streaming**_
 
-[.column]
-
-### Live Sport ⚽️ 🏀 🏎
-
-[.column]
-
-### Streaming📱 📺 🕹
+![inline 80%](./images/dazn.png)
 
 ---
 
 [.column]
-###[fit] 25+
-###[fit] _**HTML-based**_
-###[fit] devices supported
+#[fit] 25+
+##[fit] _**HTML-based**_
+##[fit] devices supported
 
 [.column]
 
-- Browser Engine
-- Developer Experience
-- Remote
-- Video Players
+- TVs
+- Gaming Console
+- Set-top boxes
 - ...much more
 
 ---
 
-# Teams Structure
+# Workflow
 
 ![inline 70%](./images/teams.png)
 
@@ -80,7 +79,7 @@
 
 ![inline 70%](./images/teams_work_visibility.png)
 
-^ When is this feature going to be ready ?
+^ When is this feature going to be released?
 
 ---
 
@@ -89,6 +88,19 @@
 ## Devices Teams can't fix issues properly
 
 ![inline 70%](./images/teams_fix_issues.png)
+
+---
+
+[.column]
+#[fit] Challenges
+#[fit] _**Recap**_
+
+[.column]
+###[fit] Slow Feebback Loop
+<br>
+###[fit] Work Visibility
+<br>
+###[fit] Device Teams Ownership
 
 ---
 
@@ -105,7 +117,9 @@ If we create an abstractions on the devices differencies we can allow feature te
 -->
 
 ---
-
+<br>
+<br>
+<br>
 “The First Way emphasizes the performance of the entire system, as opposed to the performance of a specific silo of work or department.”
 
 *Gene Kim, The DevOps HandBook*
@@ -114,27 +128,15 @@ If we create an abstractions on the devices differencies we can allow feature te
 
 ---
 
-# From Code to Customers #1
+# From Code to Customers
 
-@TODO instert image here
-
-![inline](./images/features_devices.png)
+![inline 70%](./images/teams.png)
 
 ---
 
-# From Code to Customers #2
+# We've been here before
 
-@TODO instert image here
-
-Same image but with feature teams & devices teams
-
----
-
-# From Code to Customers #3
-
-@TODO instert image here
-
-Same image but with dev & ops
+![inline 70%](./images/workflow_devops.png)
 
 <!--
 - EUREKA! -> I've already seen this one, it's DevOps
@@ -144,24 +146,28 @@ Official Definition: "a software engineering culture and practice, that aims at 
 
 ---
 
-# The Power of Abstraction
-
-DevOps was born because of abstractions
-
-Call it AWS, GCP, Azure, or simply a Platform team that build tools for teams to be autonomous from dev to ops.
-
-<!--
-this was possible because of abstractions (servers)
-- AWS or a "Platform" team that leveraged some of the operation tasks to allow a dev team to become more ops
-
-If we create an abstractions on the devices differencies we can allow feature team to deploy their feature in production
--->
-
-[.footer: Alex Martelli, The Tower of Abstraction]
+#[fit] How did we arrive to
+#[fit] today's DevOps?
 
 ---
 
-To apply the devops concept, what's the right abstractions that we need ?
+# The Power of Abstraction
+
+DevOps is here because of abstractions. Call them *Cloud Providers* like AWS[^a] or GCP[^b], call them *Tools* like Chef, Puppet, Ansible or Terraform, but without them, would we have this conference?
+
+[^a]: Amazon Web Services
+
+[^b]: Google Cloud Platform
+
+---
+
+# Which abstractions do we need?
+
+To apply the DevOps principles, what's the *right* abstractions that we need ?
+
+[.footer: Alex Martelli, [The Tower of Abstractioni (talk)](https://www.youtube.com/watch?v=zhpWhkW8kcc)]
+
+^ "There are only two hard things in Computer Science: cache invalidation and naming things. Phil Karlton"
 
 ---
 
@@ -171,14 +177,39 @@ To apply the devops concept, what's the right abstractions that we need ?
 
 ---
 
-# One team, two abstractions
+# _**The Pain Points**_
 
-Ease the differencies between devices
+#[fit] Devices Differencies
+
+<br>
+
+![inline 70%](./images/differencies.png)
 
 ---
 
-# Abstraction #1
-# _**Runtime - Bootstrap**_
+# _**TV Platform Team**_
+# Ease devices differencies
+
+Enable feature teams to dev & deploy autonomously
+
+<br>
+
+![inline 60%](./images/differencies_abstraction.png)
+
+---
+
+## _**Abstraction #1**_
+# Buildtime - Tools
+
+- Develop on device
+- Debugging on device
+- Monitoring
+- Test Automation on device (TV Lab)
+
+---
+
+## _**Abstraction #2**_
+# Runtime
 
 - Remotes & Controllers
 - Device APIs
@@ -189,38 +220,41 @@ Ease the differencies between devices
 
 ---
 
-# Abstraction #2
-# _**Buildtime - Tools**_
+# TV Platform team & Features teams
 
-- Develop on device
-- Debugging on device
-- Monitoring
-- Test Automation on device (TV Lab)
+![inline 48%](./images/workflow_new.png)
+
+^ TV Platform team enables the Features Team to work on Devices
 
 ---
 
-# TV Platform team & Feature teams
+# [fit] Maximise the flow
+## _**Make work visible**_
 
-Updated image laptop -> customers
+![50% original](./images/maximise_the_flow_make_work_visible.png)
 
 ---
 
-# Maximise the flow - Lead Time
+# [fit] Maximise the flow
+## _**Reduce batch size**_
 
-- Make work visible: single team Jira board
-- Reduce batch size: up to the feature teams
-- Prevent defect being passed downstream: developing on devices, automation for testing
-- always optimise for the global goals: YEY
+![50% original](./images/maximise_the_flow_reduce_batch_size.png)
+
+---
+
+# [fit] Maximise the flow
+## _**Prevent Defects being passed downstream**_
+
+![50% original](./images/maximise_the_flow_prevent_defects.png)
 
 ---
 
 # Takeaways
 
+- The Developer Experience is important
 - DevOps is about unifying and enabling
 - The Backend it's just the beginning
-- Measure
-- Improve
-- Repeat
+- Measure, Improve & Repeat
 
 ---
 
