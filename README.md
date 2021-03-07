@@ -1,3 +1,5 @@
-# Talk: DevOps for Frontend, Beyond Desktop Browsers
+![Max Gallo, DevOps for Frontend, Beyond Desktop Browsers](/images/first_slide.png)
 
-Talk performed for the first time at
+# Presentation Tools
+- [Deckset - slides](https://www.deckset.com/)
+- [Excalidraw - drawings](https://excalidraw.com/)
