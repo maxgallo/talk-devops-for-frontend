@@ -18,7 +18,7 @@ build-lists: true
 ##[fit] _**Principal Engineer at DAZN**_
 ##[fit]@_maxgallo
 
-[^1]: or Massimiliano if you like Itlian spelling challenges
+[^1]: or Massimiliano if you like Italian spelling challenges
 
 ---
 
@@ -53,7 +53,7 @@ build-lists: true
 - TVs
 - Gaming Console
 - Set-top boxes
-- ...much more
+- ...more
 
 ---
 
@@ -97,7 +97,7 @@ build-lists: true
 
 [.column]
 
-- Slow Feebback Loop
+- Slow Feedback Loop
 - Work Visibility
 - Device Teams Ownership
 
@@ -189,7 +189,7 @@ To apply the DevOps principles, what's the *right* abstractions that we need ?
 # _**TV Platform Team**_
 # Ease devices differencies
 
-Enable feature teams to dev & deploy autonomously
+Enable Feature Teams to dev & deploy autonomously
 
 <br>
 
@@ -254,9 +254,9 @@ Enable feature teams to dev & deploy autonomously
 
 [.column]
 
-- One Jira board to track the work
-- One Team that deploys often
-- Develop on Device early + Test Automation
+- One Jira board to make the work visible
+- One Team that deploys often, autonomously
+- Develop on device early + Test Automation
 
 ---
 
@@ -273,8 +273,11 @@ Enable feature teams to dev & deploy autonomously
 
 github.com/maxgallo/talk-devops-for-frontend
 
-_@\_maxgallo_
+_@\_maxgallo / @dazneng_
 
+<br>
+<br>
 
+→ we're hiring (DMs are open)
 
 
