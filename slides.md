@@ -22,10 +22,10 @@ build-lists: true
 
 ---
 
-# Our Journey
+# Agenda
 
 - Beyond Desktop Browsers
-- To DevOps or not To DevOps
+- The Journey to DevOps
 - DevOps for Frontend
 
 ---
@@ -103,9 +103,9 @@ build-lists: true
 
 ---
 
-# [fit] To DevOps
-# [fit] or not
-# [fit] to DevOps
+# [fit] The Journey
+# [fit] to
+# [fit] DevOps
 
 <!--
 
