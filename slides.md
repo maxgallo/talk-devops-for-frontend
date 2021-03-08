@@ -160,9 +160,7 @@ DevOps is here because of abstractions. Call them *Cloud Providers* like AWS[^a]
 
 ---
 
-# Which abstractions do we need?
-
-To apply the DevOps principles, what's the *right* abstractions that we need ?
+#[fit] Which abstractions do we need?
 
 [.footer: Alex Martelli, [The Tower of Abstractioni (talk)](https://www.youtube.com/watch?v=zhpWhkW8kcc)]
 
